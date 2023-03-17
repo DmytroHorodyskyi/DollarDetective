@@ -1,0 +1,6 @@
+framework module Pods_DollarDetective {
+  umbrella header "Pods-DollarDetective-umbrella.h"
+
+  export *
+  module * { export * }
+}
