@@ -8,9 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		747285AA29C4FEAB00104412 /* DollarDetectiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747285A929C4FEAB00104412 /* DollarDetectiveApp.swift */; };
-		747285AC29C4FEAB00104412 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747285AB29C4FEAB00104412 /* ContentView.swift */; };
 		747285AE29C4FEAE00104412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747285AD29C4FEAE00104412 /* Assets.xcassets */; };
 		747285B129C4FEAE00104412 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747285B029C4FEAE00104412 /* Preview Assets.xcassets */; };
+		74C69FC829C50E3700AAA464 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C69FC329C50E3700AAA464 /* MainContentView.swift */; };
+		74C69FC929C50E3700AAA464 /* PropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C69FC429C50E3700AAA464 /* PropertyView.swift */; };
+		74C69FCA29C50E3700AAA464 /* CashFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C69FC529C50E3700AAA464 /* CashFlow.swift */; };
+		74C69FCB29C50E3700AAA464 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C69FC629C50E3700AAA464 /* SettingsView.swift */; };
+		74C69FCE29C50EBB00AAA464 /* Languages in Resources */ = {isa = PBXBuildFile; fileRef = 74C69FCD29C50EBB00AAA464 /* Languages */; };
+		74F47DCB29C590E4009C42BC /* TotalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F47DCA29C590E4009C42BC /* TotalLabel.swift */; };
+		74F47DCD29C5B1EA009C42BC /* Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F47DCC29C5B1EA009C42BC /* Divider.swift */; };
 		E1B30A465FD10D2C368AFE9E /* Pods_DollarDetective.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8752DE12418B31778776E5B4 /* Pods_DollarDetective.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,9 +25,15 @@
 		4354AC81D0D9782DA782042E /* Pods-DollarDetective.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DollarDetective.release.xcconfig"; path = "Target Support Files/Pods-DollarDetective/Pods-DollarDetective.release.xcconfig"; sourceTree = "<group>"; };
 		747285A629C4FEAB00104412 /* DollarDetective.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DollarDetective.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		747285A929C4FEAB00104412 /* DollarDetectiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarDetectiveApp.swift; sourceTree = "<group>"; };
-		747285AB29C4FEAB00104412 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		747285AD29C4FEAE00104412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		747285B029C4FEAE00104412 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74C69FC329C50E3700AAA464 /* MainContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		74C69FC429C50E3700AAA464 /* PropertyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyView.swift; sourceTree = "<group>"; };
+		74C69FC529C50E3700AAA464 /* CashFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashFlow.swift; sourceTree = "<group>"; };
+		74C69FC629C50E3700AAA464 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74C69FCD29C50EBB00AAA464 /* Languages */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Languages; path = DollarDetective/Languages; sourceTree = SOURCE_ROOT; };
+		74F47DCA29C590E4009C42BC /* TotalLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalLabel.swift; sourceTree = "<group>"; };
+		74F47DCC29C5B1EA009C42BC /* Divider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divider.swift; sourceTree = "<group>"; };
 		8752DE12418B31778776E5B4 /* Pods_DollarDetective.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DollarDetective.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -76,8 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				747285A929C4FEAB00104412 /* DollarDetectiveApp.swift */,
-				747285AB29C4FEAB00104412 /* ContentView.swift */,
+				74C69FC229C50DB500AAA464 /* View */,
 				747285AD29C4FEAE00104412 /* Assets.xcassets */,
+				74C69FCD29C50EBB00AAA464 /* Languages */,
 				747285AF29C4FEAE00104412 /* Preview Content */,
 			);
 			path = DollarDetective;
@@ -89,6 +102,35 @@
 				747285B029C4FEAE00104412 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74C69FC229C50DB500AAA464 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74C69FC329C50E3700AAA464 /* MainContentView.swift */,
+				74F47DC929C590A7009C42BC /* Elements */,
+				74F47DC829C5907C009C42BC /* Tabs */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74F47DC829C5907C009C42BC /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				74C69FC529C50E3700AAA464 /* CashFlow.swift */,
+				74C69FC429C50E3700AAA464 /* PropertyView.swift */,
+				74C69FC629C50E3700AAA464 /* SettingsView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		74F47DC929C590A7009C42BC /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				74F47DCA29C590E4009C42BC /* TotalLabel.swift */,
+				74F47DCC29C5B1EA009C42BC /* Divider.swift */,
+			);
+			path = Elements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C69FCE29C50EBB00AAA464 /* Languages in Resources */,
 				747285B129C4FEAE00104412 /* Preview Assets.xcassets in Resources */,
 				747285AE29C4FEAE00104412 /* Assets.xcassets in Resources */,
 			);
@@ -206,8 +249,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				747285AC29C4FEAB00104412 /* ContentView.swift in Sources */,
+				74F47DCB29C590E4009C42BC /* TotalLabel.swift in Sources */,
+				74C69FCB29C50E3700AAA464 /* SettingsView.swift in Sources */,
+				74C69FC929C50E3700AAA464 /* PropertyView.swift in Sources */,
 				747285AA29C4FEAB00104412 /* DollarDetectiveApp.swift in Sources */,
+				74C69FC829C50E3700AAA464 /* MainContentView.swift in Sources */,
+				74C69FCA29C50E3700AAA464 /* CashFlow.swift in Sources */,
+				74F47DCD29C5B1EA009C42BC /* Divider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
