@@ -9,6 +9,8 @@ import SwiftUI
 
 struct MainContentView: View {
 
+    @EnvironmentObject private var launchScreenState: LaunchScreenStateManager
+
     init() {
         UITabBar.appearance().unselectedItemTintColor = UIColor(Color("TextColor"))
         UITabBar.appearance().backgroundColor = UIColor( Color("DarkMainColor"))
@@ -20,6 +22,8 @@ struct MainContentView: View {
                 PropertyView()
                 SettingsView()
             }
+          .onAppear {              self.launchScreenState.dismiss()
+          }
           .accentColor(Color("GoldColor"))
     }
 }
